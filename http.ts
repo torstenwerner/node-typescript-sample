@@ -2,9 +2,9 @@ const fetch = require('node-fetch');
 // const _ = require('lodash');
 
 // not recommended for daily use
-const invokeMethod = method => object => object[method]();
+const invokeMethod = (method: string) => (object: Object) => object[method]();
 
-const abbreviate = length => string => string.substring(0, length); 
+const abbreviate = (length: number) => (string: string) => string.substring(0, length); 
  
 fetch('https://github.com/')
 	.then(invokeMethod('text'))
