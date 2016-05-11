@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "typings install",
-    "build": "tsc"
+    "build": "tsc",
+    "test": "node http.js"
   },
   "author": "Torsten Werner",
   "license": "ISC",
