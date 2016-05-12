@@ -1,0 +1,13 @@
+// Platzieren Sie Ihre Einstellungen in dieser Datei, um Standard- und Benutzereinstellungen zu überschreiben.
+{
+    // Konfiguriert die Globmuster zum Ausschließen von Dateien und Ordnern.
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.DS_Store": true,
+        "**/*.js": {"when": "$(basename).ts"},
+        "**/*.map": {"when": "$(basename).map"},
+        "**/node_modules": true,
+        "**/typings": true
+    }
+}
