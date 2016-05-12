@@ -1,8 +1,8 @@
 {
-  "name": "httpclient",
+  "name": "node-typescript-sample",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "sample for using typescript, node, and node-fetch",
+  "main": "http.js",
   "scripts": {
     "postinstall": "typings install",
     "build": "tsc",
