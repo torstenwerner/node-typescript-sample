@@ -8,6 +8,7 @@
         "**/*.js": {"when": "$(basename).ts"},
         "**/*.map": {"when": "$(basename).map"},
         "**/node_modules": true,
-        "**/typings": true
+        "**/typings": true,
+        "**/README.html": true
     }
 }

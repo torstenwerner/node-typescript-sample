@@ -7,7 +7,7 @@
     "postinstall": "typings install",
     "build": "tsc",
     "test": "node http.js",
-    "doc": "asciidoctor README.adoc"
+    "doc": "asciidoctorjs README.adoc"
   },
   "author": "Torsten Werner",
   "license": "ISC",
@@ -16,6 +16,7 @@
     "node-fetch": "^1.5.2"
   },
   "devDependencies": {
+    "asciidoctor-cli": "^1.5.2-alpha.3",
     "typescript": "^1.8.10",
     "typings": "^0.8.1"
   }
