@@ -1,0 +1,7 @@
+# Sample of using node, typescript, and node-fetch
+
+```
+npm install
+npm run build
+npm test
+```

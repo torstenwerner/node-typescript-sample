@@ -6,7 +6,8 @@
   "scripts": {
     "postinstall": "typings install",
     "build": "tsc",
-    "test": "node http.js"
+    "test": "node http.js",
+    "doc": "asciidoctor README.adoc"
   },
   "author": "Torsten Werner",
   "license": "ISC",
