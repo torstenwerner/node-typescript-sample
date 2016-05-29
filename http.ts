@@ -1,4 +1,4 @@
-const fetch = require('node-fetch');
+import fetch = require('node-fetch');
 // const _ = require('lodash');
 
 // not recommended for daily use
