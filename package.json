@@ -12,6 +12,7 @@
   "author": "Torsten Werner",
   "license": "ISC",
   "dependencies": {
+    "aws-sdk": "^2.3.16",
     "lodash": "^4.12.0",
     "node-fetch": "^1.5.2"
   },
